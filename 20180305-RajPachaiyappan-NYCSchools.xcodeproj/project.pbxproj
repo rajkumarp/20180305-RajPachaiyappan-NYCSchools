@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EE3264E4204E0A4D009ABDEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3264E3204E0A4D009ABDEF /* AppDelegate.swift */; };
-		EE3264E6204E0A4D009ABDEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3264E5204E0A4D009ABDEF /* ViewController.swift */; };
+		EE3264E6204E0A4D009ABDEF /* NYCSchoolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3264E5204E0A4D009ABDEF /* NYCSchoolsTableViewController.swift */; };
 		EE3264E9204E0A4D009ABDEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3264E7204E0A4D009ABDEF /* Main.storyboard */; };
 		EE3264EB204E0A4D009ABDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3264EA204E0A4D009ABDEF /* Assets.xcassets */; };
 		EE3264EE204E0A4D009ABDEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3264EC204E0A4D009ABDEF /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		EE3264E0204E0A4D009ABDEF /* 20180305-RajPachaiyappan-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20180305-RajPachaiyappan-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3264E3204E0A4D009ABDEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE3264E5204E0A4D009ABDEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE3264E5204E0A4D009ABDEF /* NYCSchoolsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolsTableViewController.swift; sourceTree = "<group>"; };
 		EE3264E8204E0A4D009ABDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE3264EA204E0A4D009ABDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE3264ED204E0A4D009ABDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				EE3264E3204E0A4D009ABDEF /* AppDelegate.swift */,
-				EE3264E5204E0A4D009ABDEF /* ViewController.swift */,
+				EE3264E5204E0A4D009ABDEF /* NYCSchoolsTableViewController.swift */,
 				EE3264E7204E0A4D009ABDEF /* Main.storyboard */,
 				EE3264EA204E0A4D009ABDEF /* Assets.xcassets */,
 				EE3264EC204E0A4D009ABDEF /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE3264E6204E0A4D009ABDEF /* ViewController.swift in Sources */,
+				EE3264E6204E0A4D009ABDEF /* NYCSchoolsTableViewController.swift in Sources */,
 				EE3264E4204E0A4D009ABDEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
