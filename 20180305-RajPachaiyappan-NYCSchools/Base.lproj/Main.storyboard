@@ -1,24 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oe0-0i-fvp">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="ArialRoundedMTBold.ttf">
+            <string>ArialRoundedMTBold</string>
+        </array>
+        <array key="TrebuchetMS.ttf">
+            <string>TrebuchetMS</string>
+        </array>
+        <array key="Verdana.ttf">
+            <string>Verdana</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Schools Table View Controller-->
+        <scene sceneID="EoK-BB-yL1">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <tableViewController id="lWw-CC-JW1" customClass="NYCSchoolsTableViewController" customModule="_0180305_RajPachaiyappan_NYCSchools" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="eo9-jL-8g8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="separatorColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <activityIndicatorView key="tableFooterView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" id="LN7-P2-59d" customClass="CustomActivityIndicator" customModule="_0180305_RajPachaiyappan_NYCSchools" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="72" width="375" height="20"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </activityIndicatorView>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="SchoolCell" id="ADy-SU-2Pl" customClass="SchoolCellTableViewCell" customModule="_0180305_RajPachaiyappan_NYCSchools" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ADy-SU-2Pl" id="gYO-MC-ts3">
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZK-RU-ezm">
+                                            <rect key="frame" x="10" y="5" width="321" height="33.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="ZZK-RU-ezm" firstAttribute="leading" secondItem="gYO-MC-ts3" secondAttribute="leading" constant="10" id="6CF-h1-oCg"/>
+                                        <constraint firstItem="ZZK-RU-ezm" firstAttribute="centerY" secondItem="gYO-MC-ts3" secondAttribute="centerY" id="EzZ-R1-M16"/>
+                                        <constraint firstItem="ZZK-RU-ezm" firstAttribute="top" secondItem="gYO-MC-ts3" secondAttribute="top" constant="5" id="Hj1-5k-sEs"/>
+                                        <constraint firstAttribute="bottom" secondItem="ZZK-RU-ezm" secondAttribute="bottom" constant="5" id="W2v-qg-oI0"/>
+                                        <constraint firstAttribute="trailing" secondItem="ZZK-RU-ezm" secondAttribute="trailing" constant="10" id="a11-eC-MNf"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="schoolNameLabel" destination="ZZK-RU-ezm" id="dOT-M5-TGQ"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="lWw-CC-JW1" id="cNU-Bq-O2e"/>
+                            <outlet property="delegate" destination="lWw-CC-JW1" id="IfD-ie-gih"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="fod-3r-14f"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="LN7-P2-59d" id="erE-5I-rSB"/>
+                        <segue destination="bmm-Og-DaH" kind="show" identifier="SchoolDetailsSegue" id="qpd-WB-Zqk"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RU8-9A-6Y0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="750" y="304"/>
+        </scene>
+        <!--School Details View Controller-->
+        <scene sceneID="iy0-i4-4XB">
+            <objects>
+                <viewController storyboardIdentifier="SchoolDetailsViewController" id="bmm-Og-DaH" customClass="SchoolDetailsViewController" customModule="_0180305_RajPachaiyappan_NYCSchools" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x8J-AM-j6a">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nyo-Wj-t7J">
+                                <rect key="frame" x="15" y="87" width="345" height="23.5"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Gzp-VQ-Vad">
+                                <rect key="frame" x="0.0" y="135.5" width="375" height="531.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="SOe-da-Uka">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ScoreCell" id="3R8-Ey-V69" customClass="ScoreCollectionViewCell" customModule="_0180305_RajPachaiyappan_NYCSchools" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="0.0" width="100" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66a-my-wII" userLabel="ScoreName">
+                                                    <rect key="frame" x="7" y="71" width="86" height="21"/>
+                                                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
+                                                    <color key="textColor" red="0.36394474300000001" green="0.35731315460000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rI0-5U-Dcf" userLabel="Score">
+                                                    <rect key="frame" x="7" y="33.5" width="86" height="28"/>
+                                                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="66a-my-wII" secondAttribute="trailing" constant="7" id="772-zF-x9m"/>
+                                            <constraint firstItem="rI0-5U-Dcf" firstAttribute="leading" secondItem="3R8-Ey-V69" secondAttribute="leading" constant="7" id="bkO-7e-dgw"/>
+                                            <constraint firstItem="66a-my-wII" firstAttribute="leading" secondItem="3R8-Ey-V69" secondAttribute="leading" constant="7" id="bti-1S-MfD"/>
+                                            <constraint firstAttribute="bottom" secondItem="66a-my-wII" secondAttribute="bottom" constant="8" id="lQy-qe-DzZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="rI0-5U-Dcf" secondAttribute="trailing" constant="7" id="mLn-ZK-Deq"/>
+                                            <constraint firstItem="rI0-5U-Dcf" firstAttribute="centerY" secondItem="3R8-Ey-V69" secondAttribute="centerY" constant="-3" id="zZ6-wW-9Xg"/>
+                                        </constraints>
+                                        <size key="customSize" width="100" height="100"/>
+                                        <connections>
+                                            <outlet property="scoreLabel" destination="rI0-5U-Dcf" id="mMd-vV-IBr"/>
+                                            <outlet property="scoreNameLabel" destination="66a-my-wII" id="KMo-LV-BNs"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="bmm-Og-DaH" id="jvb-TB-yhH"/>
+                                    <outlet property="delegate" destination="bmm-Og-DaH" id="sgq-hj-ECu"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Gzp-VQ-Vad" firstAttribute="trailing" secondItem="625-pW-x84" secondAttribute="trailing" id="3qV-LY-aAN"/>
+                            <constraint firstItem="Gzp-VQ-Vad" firstAttribute="top" secondItem="Nyo-Wj-t7J" secondAttribute="bottom" constant="25" id="4W4-O1-JKB"/>
+                            <constraint firstItem="Nyo-Wj-t7J" firstAttribute="leading" secondItem="625-pW-x84" secondAttribute="leading" constant="15" id="Lbg-PW-NSH"/>
+                            <constraint firstItem="Gzp-VQ-Vad" firstAttribute="bottom" secondItem="625-pW-x84" secondAttribute="bottom" id="fv8-hM-Wyo"/>
+                            <constraint firstItem="Gzp-VQ-Vad" firstAttribute="leading" secondItem="625-pW-x84" secondAttribute="leading" id="hLt-OS-HDh"/>
+                            <constraint firstItem="Nyo-Wj-t7J" firstAttribute="top" secondItem="625-pW-x84" secondAttribute="top" constant="23" id="sA6-TS-t1z"/>
+                            <constraint firstItem="625-pW-x84" firstAttribute="trailing" secondItem="Nyo-Wj-t7J" secondAttribute="trailing" constant="15" id="som-VP-hlp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="625-pW-x84"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="Gzp-VQ-Vad" id="pCB-Zg-mQM"/>
+                        <outlet property="schoolNameLabel" destination="Nyo-Wj-t7J" id="z7b-gm-4DU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KxY-hu-vAX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1720.8" y="303.59820089955025"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ndA-zN-rH9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oe0-0i-fvp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7Pj-g9-aJ3">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lWw-CC-JW1" kind="relationship" relationship="rootViewController" id="IWY-VK-Kxo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ShR-fl-UrT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-18" y="304"/>
         </scene>
     </scenes>
 </document>

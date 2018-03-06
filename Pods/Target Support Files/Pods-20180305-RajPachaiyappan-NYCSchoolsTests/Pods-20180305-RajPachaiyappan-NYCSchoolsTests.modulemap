@@ -1,0 +1,6 @@
+framework module Pods_20180305_RajPachaiyappan_NYCSchoolsTests {
+  umbrella header "Pods-20180305-RajPachaiyappan-NYCSchoolsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
