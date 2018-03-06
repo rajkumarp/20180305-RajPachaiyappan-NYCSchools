@@ -20,11 +20,11 @@
 		EEE1FEB1204F25AE005415C5 /* NYCSchoolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE1FEAF204F25AD005415C5 /* NYCSchoolsTableViewController.swift */; };
 		EEE1FEB4204F25BA005415C5 /* SchoolCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE1FEB2204F25BA005415C5 /* SchoolCellTableViewCell.swift */; };
 		EEE1FEB5204F25BA005415C5 /* ScoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE1FEB3204F25BA005415C5 /* ScoreCollectionViewCell.swift */; };
-		EEE1FEB7204F25EA005415C5 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE1FEB6204F25EA005415C5 /* ServiceManager.swift */; };
-		EEE1FEB9204F25F4005415C5 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE1FEB8204F25F4005415C5 /* AppUtils.swift */; };
-		EEE1FEBB204F2600005415C5 /* CustomActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE1FEBA204F2600005415C5 /* CustomActivityIndicator.swift */; };
 		EEE1FEBE204F2610005415C5 /* SchoolDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE1FEBC204F260F005415C5 /* SchoolDetails.swift */; };
 		EEE1FEBF204F2610005415C5 /* Schools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE1FEBD204F260F005415C5 /* Schools.swift */; };
+		EEE1FEC2204F3AD8005415C5 /* CustomActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE1FEC1204F3AD8005415C5 /* CustomActivityIndicator.swift */; };
+		EEE1FEC5204F3B08005415C5 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE1FEC4204F3B08005415C5 /* AppUtils.swift */; };
+		EEE1FEC9204F3B67005415C5 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE1FEC8204F3B66005415C5 /* ServiceManager.swift */; };
 		F224212CAB11240EBAC2A712 /* Pods_20180305_RajPachaiyappan_NYCSchoolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83607445AFD01C070C69A2E1 /* Pods_20180305_RajPachaiyappan_NYCSchoolsUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,11 +72,11 @@
 		EEE1FEAF204F25AD005415C5 /* NYCSchoolsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NYCSchoolsTableViewController.swift; path = ViewControllers/NYCSchoolsTableViewController.swift; sourceTree = "<group>"; };
 		EEE1FEB2204F25BA005415C5 /* SchoolCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SchoolCellTableViewCell.swift; path = Cells/SchoolCellTableViewCell.swift; sourceTree = "<group>"; };
 		EEE1FEB3204F25BA005415C5 /* ScoreCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreCollectionViewCell.swift; path = Cells/ScoreCollectionViewCell.swift; sourceTree = "<group>"; };
-		EEE1FEB6204F25EA005415C5 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceManager.swift; path = "20180305-RajPachaiyappan-NYCSchools/Managers/ServiceManager.swift"; sourceTree = SOURCE_ROOT; };
-		EEE1FEB8204F25F4005415C5 /* AppUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppUtils.swift; path = "20180305-RajPachaiyappan-NYCSchools/Utils/AppUtils.swift"; sourceTree = SOURCE_ROOT; };
-		EEE1FEBA204F2600005415C5 /* CustomActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomActivityIndicator.swift; path = "20180305-RajPachaiyappan-NYCSchools/CustomControls/CustomActivityIndicator.swift"; sourceTree = SOURCE_ROOT; };
 		EEE1FEBC204F260F005415C5 /* SchoolDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SchoolDetails.swift; path = Models/SchoolDetails.swift; sourceTree = "<group>"; };
 		EEE1FEBD204F260F005415C5 /* Schools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Schools.swift; path = Models/Schools.swift; sourceTree = "<group>"; };
+		EEE1FEC1204F3AD8005415C5 /* CustomActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomActivityIndicator.swift; path = "20180305-RajPachaiyappan-NYCSchools/CustomControls/CustomActivityIndicator.swift"; sourceTree = SOURCE_ROOT; };
+		EEE1FEC4204F3B08005415C5 /* AppUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppUtils.swift; path = "20180305-RajPachaiyappan-NYCSchools/Utils/AppUtils.swift"; sourceTree = SOURCE_ROOT; };
+		EEE1FEC8204F3B66005415C5 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceManager.swift; path = Managers/ServiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,13 +155,13 @@
 		EE3264E2204E0A4D009ABDEF /* 20180305-RajPachaiyappan-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
+				EEE1FEC7204F3B5B005415C5 /* Manager */,
+				EEE1FEC3204F3AF4005415C5 /* Utils */,
+				EEE1FEC0204F3AC0005415C5 /* CustomControls */,
 				EEE1FEAA204F255E005415C5 /* ViewControllers */,
 				EEE1FEAB204F257F005415C5 /* Constants */,
 				EEE1FEA9204F2553005415C5 /* Cells */,
-				EEE1FEA6204F2503005415C5 /* CustomControls */,
-				EEE1FEA8204F2527005415C5 /* Managers */,
 				EEE1FEA5204F24FB005415C5 /* Models */,
-				EEE1FEA7204F2519005415C5 /* Utils */,
 				EE3264E3204E0A4D009ABDEF /* AppDelegate.swift */,
 				EE3264E7204E0A4D009ABDEF /* Main.storyboard */,
 				EE3264EA204E0A4D009ABDEF /* Assets.xcassets */,
@@ -198,33 +198,6 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
-		EEE1FEA6204F2503005415C5 /* CustomControls */ = {
-			isa = PBXGroup;
-			children = (
-				EEE1FEBA204F2600005415C5 /* CustomActivityIndicator.swift */,
-			);
-			name = CustomControls;
-			path = "New Group";
-			sourceTree = "<group>";
-		};
-		EEE1FEA7204F2519005415C5 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				EEE1FEB8204F25F4005415C5 /* AppUtils.swift */,
-			);
-			name = Utils;
-			path = "New Group1";
-			sourceTree = "<group>";
-		};
-		EEE1FEA8204F2527005415C5 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				EEE1FEB6204F25EA005415C5 /* ServiceManager.swift */,
-			);
-			name = Managers;
-			path = "New Group2";
-			sourceTree = "<group>";
-		};
 		EEE1FEA9204F2553005415C5 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +222,32 @@
 				EEE1FEAC204F25A0005415C5 /* AppConstants.swift */,
 			);
 			name = Constants;
+			sourceTree = "<group>";
+		};
+		EEE1FEC0204F3AC0005415C5 /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				EEE1FEC1204F3AD8005415C5 /* CustomActivityIndicator.swift */,
+			);
+			name = CustomControls;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		EEE1FEC3204F3AF4005415C5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EEE1FEC4204F3B08005415C5 /* AppUtils.swift */,
+			);
+			name = Utils;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		EEE1FEC7204F3B5B005415C5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EEE1FEC8204F3B66005415C5 /* ServiceManager.swift */,
+			);
+			name = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -544,14 +543,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE1FEC9204F3B67005415C5 /* ServiceManager.swift in Sources */,
 				EE3264E4204E0A4D009ABDEF /* AppDelegate.swift in Sources */,
 				EEE1FEB4204F25BA005415C5 /* SchoolCellTableViewCell.swift in Sources */,
 				EEE1FEB0204F25AE005415C5 /* SchoolDetailsViewController.swift in Sources */,
-				EEE1FEB9204F25F4005415C5 /* AppUtils.swift in Sources */,
 				EEE1FEB1204F25AE005415C5 /* NYCSchoolsTableViewController.swift in Sources */,
-				EEE1FEBB204F2600005415C5 /* CustomActivityIndicator.swift in Sources */,
 				EEE1FEAD204F25A0005415C5 /* AppConstants.swift in Sources */,
-				EEE1FEB7204F25EA005415C5 /* ServiceManager.swift in Sources */,
+				EEE1FEC5204F3B08005415C5 /* AppUtils.swift in Sources */,
+				EEE1FEC2204F3AD8005415C5 /* CustomActivityIndicator.swift in Sources */,
 				EEE1FEBF204F2610005415C5 /* Schools.swift in Sources */,
 				EEE1FEBE204F2610005415C5 /* SchoolDetails.swift in Sources */,
 				EEE1FEB5204F25BA005415C5 /* ScoreCollectionViewCell.swift in Sources */,
